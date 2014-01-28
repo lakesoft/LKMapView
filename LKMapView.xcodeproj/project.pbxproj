@@ -61,6 +61,7 @@
 		BCF2AB8418975718005B31F7 /* LKMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKMapView.m; sourceTree = "<group>"; };
 		BCF2AB8518975718005B31F7 /* LKMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKMapAnnotation.h; sourceTree = "<group>"; };
 		BCF2AB8618975718005B31F7 /* LKMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKMapAnnotation.m; sourceTree = "<group>"; };
+		BCF2AB8E18984F30005B31F7 /* LKMapView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = LKMapView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +91,7 @@
 		BCF2AB411897560F005B31F7 = {
 			isa = PBXGroup;
 			children = (
+				BCF2AB8D18984F23005B31F7 /* CocoaPods */,
 				BCF2AB8218975646005B31F7 /* Classes */,
 				BCF2AB531897560F005B31F7 /* Examples */,
 				BCF2AB7218975610005B31F7 /* Tests */,
@@ -170,6 +172,14 @@
 				BCF2AB8618975718005B31F7 /* LKMapAnnotation.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		BCF2AB8D18984F23005B31F7 /* CocoaPods */ = {
+			isa = PBXGroup;
+			children = (
+				BCF2AB8E18984F30005B31F7 /* LKMapView.podspec */,
+			);
+			name = CocoaPods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -484,6 +494,7 @@
 				BCF2AB7E18975610005B31F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCF2AB7F18975610005B31F7 /* Build configuration list for PBXNativeTarget "LKMapViewTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +503,7 @@
 				BCF2AB8118975610005B31F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
